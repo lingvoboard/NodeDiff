@@ -12,7 +12,6 @@ Command line:
 
 ```
 node this_script.js file1.dat file2.dat
-
 ```
 
 All information about errors and differences is written to the log file, diff.log
@@ -27,7 +26,6 @@ Output example (diff.log):
 0x460B5	0x53	0xC3
 
 Bytes differs: 4
-
 ```
 
 Explanation:
@@ -36,7 +34,6 @@ Explanation:
 first column - offset
 second column - file1.dat (value of a byte in hexadecimal representation)
 third column - file2.dat (-)
-
 ```
 
 ### Attention
