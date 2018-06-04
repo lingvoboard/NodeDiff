@@ -31,9 +31,9 @@ Bytes differs: 4
 Explanation:
 
 ```
-first column - offset
+first column  - offset
 second column - file1.dat (value of a byte in hexadecimal representation)
-third column - file2.dat (-)
+third column  - file2.dat (-)
 ```
 
 ### Attention
