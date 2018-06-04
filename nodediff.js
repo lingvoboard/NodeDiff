@@ -83,6 +83,10 @@ async function main () {
       fileSize1 >= Buffer_Size ? Math.floor(fileSize1 / Buffer_Size) : 0
 
     for (var i = 0; i < parts; i++) {
+      if (Differences.length > 201) {
+        break
+      }
+
       const bytes1 = await readbytes(fd1, offset, Buffer_Size)
       const bytes2 = await readbytes(fd2, offset, Buffer_Size)
 
